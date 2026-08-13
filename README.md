@@ -306,21 +306,6 @@ Users can ask questions such as:
 
 ---
 
-# 🎓 Key Learning Outcomes
-
-Through this project, the following concepts are explored:
-
-* Agentic AI Development
-* AI Agent Architecture
-* Google ADK
-* Google Vertex AI
-* Gemini Models
-* Google Cloud Deployment
-* AI Application Deployment
-* Cloud-Based AI Infrastructure
-* AI-Powered Business Automation
-
----
 
 # 👨‍💻 Developer By
 
