@@ -1,4 +1,7 @@
 #  Business Consultant AI
+Transforming Business Problems into Intelligent AI-Powered Insights and Recommendations.
+
+Built with 🤖 Google ADK | 🧠 Gemini | ☁️ Google Vertex AI
 
 ## 🤖 AI-Powered Business Consulting Agent Using Google ADK and Vertex AI
 
