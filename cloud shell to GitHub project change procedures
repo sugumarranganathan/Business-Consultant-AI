@@ -1,0 +1,184 @@
+Now we will move your project from:
+
+☁️ Google Cloud Shell
+        ↓ git push
+🐙 GitHub
+Business-Consultant-AI
+
+Follow these steps one by one.
+
+Step 1: Open Cloud Shell
+
+Go back to your Google Cloud Shell terminal.
+
+Run:
+
+cd ~/business_consultant_agent
+
+Then check:
+
+pwd
+
+You should see:
+
+/home/sugumarranganathan54/business_consultant_agent
+
+Check files:
+
+ls
+
+=======
+
+Step 2: Create .gitignore
+
+Run:
+
+nano .gitignore
+
+Paste:
+
+__pycache__/
+*.pyc
+.env
+.env.*
+.adk/
+
+Save:
+
+Ctrl + O
+Enter
+Ctrl + X
+
+Then verify:
+
+ls -a
+
+You should see .gitignore.
+
+=========
+
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/sugumarranganathan54/business_consultant_agent/.git/
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ 
+
+===========
+Step 4: Add project files
+
+Run:
+
+git add .
+
+Then check:
+
+git status
+
+You should see files ready to commit, such as:
+
+agent.py
+deploy.py
+requirements.txt
+__init__.py
+.gitignore
+
+=============
+
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git add .
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   __init__.py
+        new file:   agent.py
+        new file:   deploy.py
+        new file:   requirements.txt
+
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ 
+
+=================
+
+Step 5: Commit the project
+
+Run:
+
+================
+
+run this exact command in your Google Cloud Shell:
+
+git config --global user.email "sugumarranganathan52@gmail.com"
+
+Also set your name:
+
+git config --global user.name "Sugumar Ranganathan"
+
+Then check both:
+
+git config --global --list
+
+You should see:
+
+user.name=Sugumar Ranganathan
+user.email=sugumarranganathan52@gmail.com
+
+Then commit your project again:
+
+git commit -m "Initial commit - Business Consultant AI"
+
+==============
+
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git config --global user.name "Sugumar Ranganathan"
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git config --global user.email "sugumarranganathan52@gmail.com"
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git config --global user.name "Sugumar Ranganathan"
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git config --global --list
+user.name=Sugumar Ranganathan
+user.email=sugumarranganathan52@gmail.com
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ git commit -m "Initial commit - Business Consultant AI"
+[master (root-commit) 4f1f9db] Initial commit - Business Consultant AI
+ 5 files changed, 111 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 __init__.py
+ create mode 100644 agent.py
+ create mode 100644 deploy.py
+ create mode 100644 requirements.txt
+sugumarranganathan54@cloudshell:~/business_consultant_agent (project-415b525b-5ad3-4185-aeb)$ 
+
+============
+
+Perfect! 🎉 Your first Git commit was successful.
+
+The important line is:
+
+[master (root-commit) 4f1f9db] Initial commit - Business Consultant AI
+
+And Git added your 5 files:
+
+.gitignore
+__init__.py
+agent.py
+deploy.py
+requirements.txt
+
+Now do the next 3 commands.
+
+Step 1: Change branch name from master to main
+git branch -M main
+
+
+
+git commit -m "Initial commit - Business Consultant AI"
+
+If Git asks for your name and email, stop there and show me the message. I will give you the exact command.
+
